@@ -47,6 +47,7 @@ function addExpense() {
     document.getElementById("expense-date").value = 0;
 
     loadExpenses();
+    updateSummary();
 
 }
 
